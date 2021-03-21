@@ -28,9 +28,13 @@ a:active {
   color: #bf12a5;
 } 
 
-html {
-  font-family: 'Josefin', sans-serif;
-  src: url("/fonts/JosefinSans-Regular.ttf") format('truetype');
+@font-face {
+    font-family: 'my_ugly_handwritingregular';
+    src: url('/fonts/myuglyhandwriting/myuglyhandwriting-regular-webfont.woff2') format('woff2'),
+         url('/fonts/myuglyhandwriting/myuglyhandwriting-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 p.big {
